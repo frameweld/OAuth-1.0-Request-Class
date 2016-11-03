@@ -7,10 +7,10 @@ Send OAuth 1.0 requests.
 oauth_frameweld::init()->
 setRequestOptions(
 	array(
-	 	'public_key' => $keys['api_key'],
-	 	'private_key' => $keys['api_key_private'],
-	 	'api_url' => $api_url_resource,
-	 	'method' => 'GET'
+	 	'public_key' => '[Public API Key Goes Here]',
+	 	'private_key' => '[Private API Key Goes Here]',
+	 	'api_url' => '[Resource URI Goes Here]',
+	 	'method' => '[Method Goes Here]'
 	)		
 )->
 sendRequest();
